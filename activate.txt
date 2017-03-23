@@ -1,0 +1,23 @@
+$ activate carnd-term1
+
+=======Project 2===========
+cd C:\Users\DanDan\Documents\CarND-Traffic-Sign-Classifier-Project
+jupyter notebook Traffic_Sign_Classifier.ipynb
+
+
+=======Project 3===========
+cd C:\users\dandan\desktop\project3
+jupyter notebook model.ipynb
+python drive.py model.h5 	//without saving images
+python drive.py model.h5 run1   //with images saved in the folder called run1
+python video.py run1 --fps 48
+
+
+Environment setting link:
+https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/doc/configure_via_anaconda.md
+
+Config Environment:
+conda env create -f env-p3.yml 		//create env
+conda info --envs 			//confirm env get created
+conda clean -tp 			//clean downloads
+conda env remove -n p3 	//delete env
