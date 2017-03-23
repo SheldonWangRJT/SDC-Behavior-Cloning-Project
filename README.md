@@ -10,14 +10,9 @@ We have provided a simulator where you can steer a car around a track for data c
 We also want you to create a detailed writeup of the project. Check out the writeup template for this project and use it as a starting point for creating your own writeup. The writeup can be either a markdown file or a pdf document.
 
 To meet specifications, the project will require submitting five files:
-
 model.py (script used to create and train the model)
-
 drive.py (script to drive the car - feel free to modify this file)
-
 model.h5 (a trained Keras model)
-
 a report writeup file (either markdown or pdf)
-
 video.mp4 (a video recording of your vehicle driving autonomously around the track for at least one full lap)
 
